@@ -13,6 +13,10 @@
   },
   "author": "Emre Rothzerg <hello@emrerothzerg.com> (https://www.emrerothzerg.com/)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emrerothzerg/emrejs.git"
+},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
