@@ -10,6 +10,12 @@ EmreJS lives in [npm](https://www.npmjs.com/get-npm). To install the latest stab
 npm install emrejs
 ```
 
+With Babel
+
+```
+import $ from "emrejs";
+```
+
 ## Selectors
 
 > Select all elements. @return node list

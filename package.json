@@ -1,6 +1,6 @@
 {
   "name": "emrejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple and light JavaScript Framework to manipulate the DOM.",
   "homepage": "https://www.emrerothzerg.com.au",
   "main": "lib/index.js",
