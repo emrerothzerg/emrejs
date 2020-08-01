@@ -83,6 +83,9 @@ class makeCollection {
       element.remove();
     });
   }
+  exist() {
+    return this.el.length > 0 ? true : false;
+  }
   focus() {
     this.el.forEach((element) => {
       element.focus();
@@ -96,6 +99,11 @@ class makeCollection {
   addClass(className) {
     this.el.forEach((element) => {
       element.classList.add(className);
+    });
+  }
+  hasClass(className) {
+    this.el.forEach((element) => {
+      return element.classList.contains(className) ? true : false;
     });
   }
   attr(name, value) {
@@ -146,6 +154,5 @@ class makeCollection {
     }
   }
 }
-
 
 export default $;

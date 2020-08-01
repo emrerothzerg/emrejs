@@ -1,5 +1,6 @@
 /lib/*.js
 /lib/*.ts
+/test/
 # Logs
 logs
 *.log

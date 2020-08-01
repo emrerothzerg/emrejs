@@ -1,10 +1,10 @@
 {
   "name": "emrejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple and light JavaScript Framework to manipulate the DOM.",
   "homepage": "https://www.emrerothzerg.com.au",
   "main": "lib/index.js",
-  "scripts": {
+  "scripts": { 
     "prepublish": "babel src --out-dir lib"
   },
   "babel": {
@@ -17,7 +17,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/emrerothzerg/emrejs.git"
-},
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
