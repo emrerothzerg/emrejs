@@ -62,6 +62,84 @@ import $ from "emrejs";
 ```$(selector).css({ propertyName1: propertyValue1, propertyName2: propertyValue2 })```
 
 
+> Set the computed style properties for the first element in the set of matched elements.  @return void
+
+```$(selector).css({ propertyName1: propertyValue1, propertyName2: propertyValue2 })```
+
+
+> Show element.  @return void
+
+```$(selector).show()```
+
+> Hide element.  @return void
+
+```$(selector).hide()```
+
+> Remove element from the DOM.  @return void
+
+```$(selector).remove()```
+
+> Check the element exists in the DOM.  @return boolean
+
+```$(selector).exist()```
+
+> Focus element.  @return void
+
+```$(selector).focus()```
+
+> Get attribute.  @return string
+
+```$(selector).attr('src')```
+
+> Set attribute.  @return void
+
+```$(selector).attr('href','https://www.bing.com')```
+
+> Get data.  @return string
+
+```$(selector).data('scroll-trigger')```
+
+> Set data.  @return void
+
+```$(selector).data('scroll-trigger','done')```
+
+> Append to an element.  @return void
+
+```$(selector).append(htmlcodehere)```
+
+> Get value.  @return string
+
+```$(selector).val()```
+
+> Set value.  @return void
+
+```$(selector).val('new value here')```
+
+> on method - click examples;
+
+```
+$(".addevent").on("click", (e) => {
+  e.preventDefault();
+  alert("WOUW2");
+});
+```
+```
+$(".h1element").on("click", (e) => {
+  let el = $(e.currentTarget);
+  el.css("color", "yellow");
+  setTimeout(() => el.css("color", "yellow"), 500);
+  setTimeout(() => el.css("color", "black"), 1500);
+  setTimeout(() => el.css("color", "blue"), 2500);
+  setTimeout(() => el.css("color", "green"), 3500);
+});
+```
+
+
+
+
+
+
+
 ### License
 
 EmreJS is [MIT licensed](./LICENSE).
